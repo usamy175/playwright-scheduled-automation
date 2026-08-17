@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs and runtime artifacts
+logs/*.log
+logs/*.jsonl
+cookies/
+sessions/
+storage_state*.json
+playwright/.auth/
+
+# Screenshots and temporary files
+screenshots/errors/*
+!screenshots/errors/.gitkeep
+tmp/
+temp/
+*.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
